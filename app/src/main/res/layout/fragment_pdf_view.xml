@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:padding="20sp"
+        android:id="@+id/lay_pdf_menu"
+        android:background="@drawable/blurred_bg"
+        android:clickable="true"
+        tools:context=".fragment.menu">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:id="@+id/l1"
+            android:visibility="visible"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:src="@drawable/arrow_left"
+                android:id="@+id/back"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/food"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:fontFamily="@font/josefinsans_semibold"
+                android:textSize="20sp"
+                android:id="@+id/login_text"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/l1"
+            android:layout_marginTop="20sp"
+            android:padding="10sp"
+            android:id="@+id/l2"
+            android:scrollbars="horizontal|vertical"
+            android:isScrollContainer="true"
+            android:orientation="vertical"
+            android:background="@drawable/light_grey_shape">
+
+            <!--        <WebView-->
+            <!--            android:id="@+id/webView"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="match_parent"/>-->
+
+            <com.github.barteksc.pdfviewer.PDFView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:id="@+id/main_pdf_view"
+                android:layout_below="@+id/toolbar"
+                android:padding="5sp"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+

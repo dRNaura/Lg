@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/blurred_bg"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context=".fragment.Details">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:padding="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:id="@+id/l1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrow_left" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/details"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:fontFamily="@font/josefinsans_semibold"
+            android:textSize="20sp"
+            android:id="@+id/login_text"
+            />
+
+    </LinearLayout>
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_below="@+id/l1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp"
+        android:src="@drawable/sample2"
+        app:civ_border_color="@android:color/transparent"
+        android:id="@+id/image"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="4sp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_marginTop="10sp"
+        android:layout_below="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABCD"
+        android:layout_marginLeft="10sp"
+        android:fontFamily="@font/josefinsans_semibold"
+        android:textSize="16sp"
+        android:textColor="@color/drawertextcolor" />
+
+        <TextView
+            android:id="@+id/txt_greeting"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:visibility="visible"
+            android:layout_centerHorizontal="true"
+            android:padding="5sp"
+            android:layout_below="@+id/name"
+            android:fontFamily="@font/josefinsans_semibold"
+            android:textSize="14sp"
+            android:textColor="@color/red" />
+
+    <RelativeLayout
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_below="@+id/txt_greeting"
+        android:gravity="center"
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginLeft="10sp"
+        android:id="@+id/age"
+        android:layout_marginTop="5sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="26 yrs "
+        android:padding="5sp"
+        android:fontFamily="@font/josefinsans_semibold"
+        android:textSize="12sp"
+        android:textColor="@color/textcolor" />
+
+        <ImageView
+            android:id="@+id/sep1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13sp"
+            android:layout_toRightOf="@+id/age"
+            android:padding="5sp"
+            android:src="@drawable/sep_dot" />
+
+    <TextView
+        android:layout_marginLeft="10sp"
+        android:id="@+id/height"
+        android:layout_toRightOf="@+id/sep1"
+        android:layout_marginTop="5sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5'8"
+        android:padding="5sp"
+        android:fontFamily="@font/josefinsans_semibold"
+        android:textSize="12sp"
+        android:textColor="@color/textcolor" />
+
+    <ImageView
+        android:padding="5sp"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="13sp"
+        android:id="@+id/sep2"
+        android:layout_toRightOf="@+id/height"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sep_dot"/>
+
+    <TextView
+        android:layout_marginLeft="10sp"
+        android:id="@+id/weight"
+        android:layout_toRightOf="@+id/sep2"
+        android:layout_marginTop="5sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="132"
+        android:padding="5sp"
+        android:fontFamily="@font/josefinsans_semibold"
+        android:textSize="12sp"
+        android:textColor="@color/textcolor" />
+
+        <ImageView
+            android:padding="5sp"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="13sp"
+            android:id="@+id/sep3"
+            android:layout_toRightOf="@+id/weight"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sep_dot"/>
+
+        <TextView
+            android:id="@+id/stats"
+            android:layout_marginLeft="10sp"
+            android:layout_toRightOf="@+id/sep3"
+            android:layout_marginTop="5sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="132"
+            android:padding="5sp"
+            android:fontFamily="@font/josefinsans_semibold"
+            android:textSize="12sp"
+            android:textColor="@color/textcolor" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/r1"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:gravity="center"
+        android:id="@+id/r2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginLeft="10sp"
+           android:id="@+id/txt_detail_body_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Nation"
+            android:padding="5sp"
+            android:fontFamily="@font/josefinsans_semibold"
+            android:textSize="12sp"
+            android:textColor="@color/textcolor" />
+
+        <ImageView
+            android:padding="5sp"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:id="@+id/sep4"
+            android:layout_toRightOf="@+id/txt_detail_body_type"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sep_dot"/>
+
+        <TextView
+            android:id="@+id/txt_detail_race"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Nation"
+            android:layout_toRightOf="@+id/sep4"
+            android:padding="5sp"
+            android:fontFamily="@font/josefinsans_semibold"
+            android:textSize="12sp"
+            android:textColor="@color/textcolor" />
+
+
+    </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/lay_spoken_lang"
+            android:layout_below="@+id/r2"
+            android:padding="5sp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginLeft="10sp"
+                    android:id="@+id/txt_spkn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/spoken"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/josefinsans_semibold"
+                    android:textSize="14sp"
+                    android:textColor="@color/textcolor" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/sep5"
+                    android:text=":"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/txt_spkn"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/txt_languages"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/sep5"
+                    android:fontFamily="@font/josefinsans_semibold"
+                    android:textSize="14sp"
+                    android:textColor="@color/red" />
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/lay_spoken_lang"
+        android:padding="5sp"
+        android:id="@+id/l2"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="@string/tip_artist"
+            android:layout_weight="1"
+            android:id="@+id/tip_artist"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:inputType="number"
+            android:singleLine="true"
+            android:background="@drawable/btn_shape"
+            android:fontFamily="@font/josefinsans_semibold"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/btn_live_chat"
+            android:layout_margin="5sp"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="@string/live_chat"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_shape"
+            android:fontFamily="@font/josefinsans_semibold"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l2"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="5sp"
+        android:padding="8sp"
+        android:id="@+id/l3"
+        android:orientation="vertical"
+        android:background="@drawable/light_grey_shape">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/images"
+            android:textColor="@color/white"
+            android:fontFamily="@font/josefinsans_semibold"
+            android:textSize="20sp"
+            android:id="@+id/heading"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_marginTop="15sp"
+            android:id="@+id/images_recycle"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

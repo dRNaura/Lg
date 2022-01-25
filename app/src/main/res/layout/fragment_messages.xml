@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/message_frag"
+    tools:context=".fragment.Messages"
+    android:clickable="true"
+    android:background="@drawable/blurred_bg">
+
+
+    <ProgressBar
+        android:background="@android:color/transparent"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/progress"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:layout_marginTop="30sp"
+        android:id="@+id/l1"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="5dp"
+            android:layout_gravity="center_vertical"
+            android:paddingBottom="5dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrow_left"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/msgs"
+            android:textColor="@color/white"
+            android:fontFamily="@font/josefinsans_semibold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/heading_text"
+            />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycle_message"
+        android:layout_below="@+id/l1"
+        android:layout_margin="5sp"/>
+
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:src="@drawable/nodata"
+        android:id="@+id/nodata"
+        android:visibility="gone"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>

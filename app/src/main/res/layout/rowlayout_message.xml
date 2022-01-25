@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10sp"
+    android:id="@+id/relativee"
+    android:layout_margin="5sp"
+    android:padding="20sp"
+    android:background="@drawable/light_grey_shape">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="12sp"
+        android:id="@+id/year"
+        android:textColor="@color/textcolor"/>
+
+    <TextView
+        android:layout_below="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:layout_marginTop="5sp"
+        android:textSize="18sp"
+        android:id="@+id/date"
+        android:textColor="@color/textcolor"/>
+
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:layout_marginTop="5sp"
+        android:textSize="18sp"
+        android:id="@+id/time"
+        android:textColor="@color/drawertextcolor"/>
+
+
+</RelativeLayout>

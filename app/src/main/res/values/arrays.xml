@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planets_array">
+        <item>Select Your Country</item>
+        <item>INDIA</item>
+        <item>USA</item>
+        <item>UK</item>
+    </string-array>
+</resources>

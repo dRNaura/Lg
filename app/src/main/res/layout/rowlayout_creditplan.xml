@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativee"
+    android:background="@drawable/light_grey_shape"
+    android:layout_margin="5sp"
+    android:padding="10sp">
+
+    <ImageView
+        android:layout_width="60sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_height="60sp"
+        android:id="@+id/menu"
+        android:src="@drawable/credit_coin"/>
+
+    <TextView
+        android:layout_below="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/josefinsans_regular"
+        android:textSize="18sp"
+        android:id="@+id/credit_amount"
+        android:textColor="@color/drawertextcolor"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:fontFamily="@font/josefinsans_regular"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/credit_amount"
+        android:textSize="12sp"
+        android:layout_marginTop="5sp"
+        android:textColor="@color/textcolor"
+        android:id="@+id/dollar_credit"/>
+
+    <Button
+        android:layout_width="90sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15sp"
+        android:layout_height="40sp"
+        android:text="@string/buy"
+        android:layout_below="@+id/dollar_credit"
+        android:textAllCaps="false"
+        android:id="@+id/buy"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_shape"
+        android:fontFamily="@font/josefinsans_semibold"
+        android:textColor="@color/white"/>
+
+    </RelativeLayout>

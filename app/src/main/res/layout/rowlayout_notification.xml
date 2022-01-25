@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativee"
+    android:background="@drawable/light_grey_shape"
+    android:layout_margin="5sp"
+    android:padding="10sp">
+
+    <ImageView
+        android:layout_width="40sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_height="40sp"
+        android:id="@+id/menu"
+        android:src="@drawable/ico_notification"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:fontFamily="@font/josefinsans_regular"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10sp"
+        android:layout_toRightOf="@+id/menu"
+        android:textSize="15sp"
+        android:id="@+id/notification"
+        android:textColor="@color/white"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:fontFamily="@font/josefinsans_regular"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/notification"
+        android:textSize="12sp"
+        android:layout_marginTop="13sp"
+        android:textColor="@color/textcolor"
+        android:id="@+id/date"/>
+
+    </RelativeLayout>

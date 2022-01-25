@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5sp"
+    android:id="@+id/relativee"
+    android:layout_margin="10dp"
+    android:background="@drawable/image_shape">
+    <!--
+    grid items for RecyclerView
+    -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="200sp"
+        android:layout_height="160sp"
+        android:scaleType="fitXY"/>
+
+
+
+        <ImageView
+            android:padding="2sp"
+            android:visibility="gone"
+            android:id="@+id/delete_fav"
+            android:layout_gravity="end"
+            android:layout_width="30sp"
+            android:layout_marginTop="2sp"
+            android:layout_alignParentEnd="true"
+            android:layout_height="30sp"
+            android:src="@drawable/delete"/>
+
+        <ImageView
+            android:id="@+id/add_fav"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:padding="10dp"
+            android:scaleType="centerCrop"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fav_empty"/>
+
+        <TextView
+            android:id="@+id/txtNew"
+            android:layout_marginTop="5sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/New"
+            android:background="@mipmap/red_back_img"
+            android:fontFamily="@font/josefinsans_semibold"
+            android:textSize="12dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:visibility="gone"
+            android:layout_marginLeft="0dp"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_marginTop="10sp"
+        android:layout_below="@+id/card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABCD"
+        android:singleLine="true"
+        android:fontFamily="@font/josefinsans_semibold"
+        android:textSize="16sp"
+        android:textColor="@color/drawertextcolor" />
+
+            <TextView
+                android:id="@+id/age"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="5sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ABCDf "
+                android:padding="2dp"
+                android:fontFamily="@font/josefinsans_semibold"
+                android:textSize="12sp"
+                android:textColor="@color/textcolor" />
+
+            <ImageView
+                android:layout_below="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="13sp"
+                android:id="@+id/sep1"
+                android:padding="2dp"
+                android:layout_toRightOf="@+id/age"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sep_dot"/>
+
+        <TextView
+            android:id="@+id/height"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="5sp"
+            android:layout_toRightOf="@+id/sep1"
+            android:padding="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABCDf "
+            android:fontFamily="@font/josefinsans_semibold"
+            android:textSize="12sp"
+            android:textColor="@color/textcolor" />
+
+        <ImageView
+            android:padding="2dp"
+            android:id="@+id/sep2"
+            android:layout_below="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="13sp"
+            android:layout_toRightOf="@+id/height"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sep_dot"/>
+
+        <TextView
+            android:id="@+id/third"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="5sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABCDf "
+            android:padding="2dp"
+            android:layout_toRightOf="@+id/sep2"
+            android:fontFamily="@font/josefinsans_semibold"
+            android:textSize="12sp"
+            android:textColor="@color/textcolor" />
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_below="@+id/age"
+    android:id="@+id/stat"
+    android:layout_marginTop="5dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txt_bd_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABCDf "
+        android:padding="2dp"
+        android:fontFamily="@font/josefinsans_semibold"
+        android:textSize="12sp"
+        android:textColor="@color/textcolor" />
+
+    <ImageView
+        android:layout_toRightOf="@+id/txt_bd_type"
+        android:padding="2dp"
+        android:id="@+id/sep4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sep_dot"/>
+
+    <TextView
+        android:id="@+id/txt_stat"
+        android:layout_toRightOf="@+id/sep4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABCDf "
+        android:fontFamily="@font/josefinsans_semibold"
+        android:textSize="12sp"
+        android:textColor="@color/textcolor" />
+
+    <ImageView
+        android:padding="2dp"
+        android:id="@+id/sep5"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="4dp"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/txt_stat"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sep_dot"/>
+
+    <TextView
+        android:id="@+id/txt_hair_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABCDf "
+        android:padding="2dp"
+        android:layout_toRightOf="@+id/sep5"
+        android:fontFamily="@font/josefinsans_semibold"
+        android:textSize="12sp"
+        android:textColor="@color/textcolor" />
+
+
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/stat"
+        android:id="@+id/oo"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/sep6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:padding="2dp"
+            android:src="@drawable/sep_dot" />
+
+        <TextView
+            android:id="@+id/txtRaceDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="ABCD "
+            android:padding="2dp"
+            android:layout_toRightOf="@+id/sep6"
+            android:fontFamily="@font/josefinsans_semibold"
+            android:textSize="12sp"
+            android:textColor="@color/textcolor" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

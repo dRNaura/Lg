@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:padding="10sp"
+        android:background="@drawable/tip_alertdialog"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/add_pic"
+            android:layout_margin="8sp"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:src="@drawable/addimage"/>
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:id="@+id/txt_dia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8sp"
+            android:text="@string/profile_pics"
+            android:fontFamily="@font/josefinsans_regular"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_alignParentEnd="true"
+            android:id="@+id/close_alert"
+            android:layout_margin="8sp"
+            android:layout_width="25sp"
+            android:layout_height="25sp"
+            android:src="@drawable/close"/>
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycler_pics"/>
+
+
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:layout_height="50sp"
+        android:text="@string/update"
+        android:textAllCaps="false"
+        android:id="@+id/submit"
+        android:textSize="16sp"
+        android:background="@drawable/btn_shape"
+        android:fontFamily="@font/josefinsans_semibold"
+        android:textColor="@color/white"/>
+    </LinearLayout>

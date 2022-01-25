@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10sp"
+    android:id="@+id/relativee"
+    android:layout_margin="5sp"
+    android:padding="10sp"
+    android:background="@drawable/bck">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:fontFamily="@font/josefinsans_regular"
+        android:textSize="12sp"
+        android:id="@+id/date"
+        android:textColor="@color/textcolor"/>
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:fontFamily="@font/josefinsans_regular"
+        android:textSize="24sp"
+        android:id="@+id/price"
+        android:textColor="@color/drawertextcolor"/>
+
+    <ImageView
+        android:layout_marginLeft="2sp"
+        android:id="@+id/fav"
+        android:layout_marginTop="9sp"
+        android:layout_toRightOf="@+id/price"
+        android:layout_width="25sp"
+        android:layout_height="25sp"
+        android:src="@drawable/credit__coin"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm"
+        android:layout_alignParentRight="true"
+        android:fontFamily="@font/josefinsans_regular"
+        android:textSize="14sp"
+        android:id="@+id/confirmmed"
+        android:textColor="#5EAA07"/>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_below="@+id/l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_mode"
+            android:fontFamily="@font/josefinsans_regular"
+            android:textSize="12sp"
+            android:textColor="@color/drawertextcolor"/>
+
+        <TextView
+            android:layout_marginLeft="2sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Mode:"
+            android:id="@+id/payment_mode"
+            android:fontFamily="@font/josefinsans_regular"
+            android:textSize="12sp"
+            android:textColor="@color/drawertextcolor"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20sp"
+        android:id="@+id/l3"
+        android:layout_below="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_description"
+            android:fontFamily="@font/josefinsans_regular"
+            android:textSize="12sp"
+            android:textColor="@color/textcolor"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="2sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User"
+            android:id="@+id/user_des"
+            android:fontFamily="@font/josefinsans_regular"
+            android:textSize="12sp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20sp"
+        android:id="@+id/l4"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contractor_description"
+            android:fontFamily="@font/josefinsans_regular"
+            android:textSize="12sp"
+            android:textColor="@color/textcolor"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="2sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User"
+            android:id="@+id/contractor_des"
+            android:fontFamily="@font/josefinsans_regular"
+            android:textSize="12sp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

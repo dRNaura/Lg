@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:padding="10sp"
+       android:layout_margin="10dp"
+        android:background="@drawable/tip_alertdialog"
+        android:orientation="vertical"
+    android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:id="@+id/imagealert"/>
+
+
+    <TextView
+        android:layout_toRightOf="@+id/imagealert"
+        android:layout_marginLeft="10sp"
+        android:id="@+id/txt_dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/josefinsans_regular"
+        android:text="@string/change_icontext"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:layout_height="50sp"
+        android:text="@string/Ok"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imagealert"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:id="@+id/ok_submit"
+        android:textSize="16sp"
+        android:background="@drawable/btn_shape"
+        android:fontFamily="@font/josefinsans_semibold"
+        android:textColor="@color/white"/>
+    </RelativeLayout>

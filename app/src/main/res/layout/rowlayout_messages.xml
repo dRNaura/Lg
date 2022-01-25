@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10sp"
+    android:id="@+id/relativee"
+    android:layout_margin="5sp"
+    android:padding="5sp">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/icon"
+        app:civ_border_color="@color/black"
+        app:civ_border_width="1dp"
+        app:civ_shadow="true"
+        android:id="@+id/profile"
+        app:civ_shadow_radius="2sp"
+        app:civ_shadow_color="@color/black"/>
+
+    <ImageView
+        android:layout_marginTop="53sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:id="@+id/status"
+        android:layout_marginLeft="55sp"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/manage_profile"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_toRightOf="@+id/profile"
+        android:textColor="@color/white"
+        android:fontFamily="@font/josefinsans_regular"
+        android:textSize="18sp"
+        android:id="@+id/name_txt"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginLeft="10sp"
+        android:layout_below="@+id/name_txt"
+        android:layout_toRightOf="@+id/profile"
+        android:textColor="@color/textcolor"
+        android:fontFamily="@font/josefinsans_regular"
+        android:textSize="15sp"
+        android:id="@+id/msg_text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginRight="10sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/textcolor"
+        android:layout_below="@+id/name_txt"
+        android:fontFamily="@font/josefinsans_regular"
+        android:textSize="15sp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/text_date" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/read"
+        android:layout_marginTop="5sp"
+        android:id="@+id/red_dot"
+        android:visibility="gone"
+        android:layout_marginRight="10sp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/name_txt"
+        android:layout_gravity="center_vertical" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5sp"
+        android:id="@+id/view2"
+        android:layout_marginTop="10sp"
+        android:layout_below="@+id/profile"
+        android:layout_marginLeft="9sp"
+        android:layout_marginRight="9sp"
+        android:background="@color/light_white"/>
+
+</RelativeLayout>
