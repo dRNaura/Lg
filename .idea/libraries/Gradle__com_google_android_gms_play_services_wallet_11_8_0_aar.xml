@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-wallet:11.8.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d69eb5c139d1dc217358ed663d531319/jetified-play-services-wallet-11.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d69eb5c139d1dc217358ed663d531319/jetified-play-services-wallet-11.8.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d69eb5c139d1dc217358ed663d531319/jetified-play-services-wallet-11.8.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bacfebb066bd74b5e2c6bdbf97aa6bbe/jetified-play-services-wallet-11.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bacfebb066bd74b5e2c6bdbf97aa6bbe/jetified-play-services-wallet-11.8.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bacfebb066bd74b5e2c6bdbf97aa6bbe/jetified-play-services-wallet-11.8.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/177c2a9639b68474ea4000ba5a659eef/jetified-play-services-wallet-11.8.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/177c2a9639b68474ea4000ba5a659eef/jetified-play-services-wallet-11.8.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/177c2a9639b68474ea4000ba5a659eef/jetified-play-services-wallet-11.8.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e144e8bf452056f60c99432ff5a637b0/jetified-play-services-wallet-11.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e144e8bf452056f60c99432ff5a637b0/jetified-play-services-wallet-11.8.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e144e8bf452056f60c99432ff5a637b0/jetified-play-services-wallet-11.8.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8f9ea53a44cbff397c6527b86e659842/jetified-play-services-wallet-11.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8f9ea53a44cbff397c6527b86e659842/jetified-play-services-wallet-11.8.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8f9ea53a44cbff397c6527b86e659842/jetified-play-services-wallet-11.8.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

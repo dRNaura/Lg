@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.hani-momanii:SuperNova-Emoji:1.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/61293b987ec8cd32772a8c4e72e33d20/jetified-SuperNova-Emoji-1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/61293b987ec8cd32772a8c4e72e33d20/jetified-SuperNova-Emoji-1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/61293b987ec8cd32772a8c4e72e33d20/jetified-SuperNova-Emoji-1.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8670aaaf95c26843294d02628bbae3f9/jetified-SuperNova-Emoji-1.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8670aaaf95c26843294d02628bbae3f9/jetified-SuperNova-Emoji-1.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8670aaaf95c26843294d02628bbae3f9/jetified-SuperNova-Emoji-1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5abd4a1eb996f60ca30b906e6daf8f66/jetified-SuperNova-Emoji-1.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5abd4a1eb996f60ca30b906e6daf8f66/jetified-SuperNova-Emoji-1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5abd4a1eb996f60ca30b906e6daf8f66/jetified-SuperNova-Emoji-1.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/22550b589cc22a383c4bb9b9ad76e62d/jetified-SuperNova-Emoji-1.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/22550b589cc22a383c4bb9b9ad76e62d/jetified-SuperNova-Emoji-1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/22550b589cc22a383c4bb9b9ad76e62d/jetified-SuperNova-Emoji-1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a10481c68d01124066dc8fd4bb833af2/jetified-SuperNova-Emoji-1.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a10481c68d01124066dc8fd4bb833af2/jetified-SuperNova-Emoji-1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a10481c68d01124066dc8fd4bb833af2/jetified-SuperNova-Emoji-1.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.hani-momanii/SuperNova-Emoji/1.1/a51ed55a78c8843d70f32d27f6a363213565c96/SuperNova-Emoji-1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="Gradle: com.satsuware.lib:usefulviews:2.3.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6b3fec073da2c559ed29fd5d53478752/jetified-usefulviews-2.3.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6b3fec073da2c559ed29fd5d53478752/jetified-usefulviews-2.3.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6b3fec073da2c559ed29fd5d53478752/jetified-usefulviews-2.3.6/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7641991e608d2518923eed25aadd4bbe/jetified-usefulviews-2.3.6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7641991e608d2518923eed25aadd4bbe/jetified-usefulviews-2.3.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7641991e608d2518923eed25aadd4bbe/jetified-usefulviews-2.3.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dfb20b115586fb2844a7a8cbb134ad82/jetified-usefulviews-2.3.6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dfb20b115586fb2844a7a8cbb134ad82/jetified-usefulviews-2.3.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dfb20b115586fb2844a7a8cbb134ad82/jetified-usefulviews-2.3.6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f616616f333abcb54344b5127d32071c/jetified-usefulviews-2.3.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f616616f333abcb54344b5127d32071c/jetified-usefulviews-2.3.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f616616f333abcb54344b5127d32071c/jetified-usefulviews-2.3.6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b33a561405b3ca13a512bde0c1a8ba07/jetified-usefulviews-2.3.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b33a561405b3ca13a512bde0c1a8ba07/jetified-usefulviews-2.3.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b33a561405b3ca13a512bde0c1a8ba07/jetified-usefulviews-2.3.6/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.satsuware.lib/usefulviews/2.3.6/a6493b44a7b419c7ab9f2a500cf0529ddbb0ae88/usefulviews-2.3.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.satsuware.lib/usefulviews/2.3.6/e5bf46da466b7dd8b1e79624919117bbefff3684/usefulviews-2.3.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

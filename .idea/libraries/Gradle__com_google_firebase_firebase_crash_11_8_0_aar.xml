@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-crash:11.8.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0cfd1421beeea83597379f2937c5f115/jetified-firebase-crash-11.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0cfd1421beeea83597379f2937c5f115/jetified-firebase-crash-11.8.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0cfd1421beeea83597379f2937c5f115/jetified-firebase-crash-11.8.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/81029fda69ba5af0edbfa422c5b11662/jetified-firebase-crash-11.8.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/81029fda69ba5af0edbfa422c5b11662/jetified-firebase-crash-11.8.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/81029fda69ba5af0edbfa422c5b11662/jetified-firebase-crash-11.8.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f93144b4da13517df699fba09d5f1e4b/jetified-firebase-crash-11.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f93144b4da13517df699fba09d5f1e4b/jetified-firebase-crash-11.8.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f93144b4da13517df699fba09d5f1e4b/jetified-firebase-crash-11.8.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b30f160bb2f80d115df2f5948f92a52b/jetified-firebase-crash-11.8.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b30f160bb2f80d115df2f5948f92a52b/jetified-firebase-crash-11.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b30f160bb2f80d115df2f5948f92a52b/jetified-firebase-crash-11.8.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5c260d14788b21a6509edcc4c6389a15/jetified-firebase-crash-11.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5c260d14788b21a6509edcc4c6389a15/jetified-firebase-crash-11.8.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5c260d14788b21a6509edcc4c6389a15/jetified-firebase-crash-11.8.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

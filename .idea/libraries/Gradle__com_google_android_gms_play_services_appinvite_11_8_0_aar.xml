@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-appinvite:11.8.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fa3b09d85346d4dd4674bf1201e8c0b3/jetified-play-services-appinvite-11.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fa3b09d85346d4dd4674bf1201e8c0b3/jetified-play-services-appinvite-11.8.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fa3b09d85346d4dd4674bf1201e8c0b3/jetified-play-services-appinvite-11.8.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d3d919c452f08165be4bf442011310f3/jetified-play-services-appinvite-11.8.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d3d919c452f08165be4bf442011310f3/jetified-play-services-appinvite-11.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d3d919c452f08165be4bf442011310f3/jetified-play-services-appinvite-11.8.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1049f2fbaf35a6b603940f5664ecacf8/jetified-play-services-appinvite-11.8.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1049f2fbaf35a6b603940f5664ecacf8/jetified-play-services-appinvite-11.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1049f2fbaf35a6b603940f5664ecacf8/jetified-play-services-appinvite-11.8.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/71c27a65ccdbc13d3374f91a11f49fd5/jetified-play-services-appinvite-11.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/71c27a65ccdbc13d3374f91a11f49fd5/jetified-play-services-appinvite-11.8.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/71c27a65ccdbc13d3374f91a11f49fd5/jetified-play-services-appinvite-11.8.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/28ab44c97637964329d08bbb97947335/jetified-play-services-appinvite-11.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/28ab44c97637964329d08bbb97947335/jetified-play-services-appinvite-11.8.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/28ab44c97637964329d08bbb97947335/jetified-play-services-appinvite-11.8.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

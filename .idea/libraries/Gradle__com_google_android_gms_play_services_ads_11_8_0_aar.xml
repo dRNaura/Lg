@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-ads:11.8.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2359814b58b29d953a19d75f3c855ac9/jetified-play-services-ads-11.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2359814b58b29d953a19d75f3c855ac9/jetified-play-services-ads-11.8.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2359814b58b29d953a19d75f3c855ac9/jetified-play-services-ads-11.8.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d46257b07bbdc0182f8a34f7581de975/jetified-play-services-ads-11.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d46257b07bbdc0182f8a34f7581de975/jetified-play-services-ads-11.8.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d46257b07bbdc0182f8a34f7581de975/jetified-play-services-ads-11.8.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/684d620d511133654e185e5da9920f09/jetified-play-services-ads-11.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/684d620d511133654e185e5da9920f09/jetified-play-services-ads-11.8.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/684d620d511133654e185e5da9920f09/jetified-play-services-ads-11.8.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5448f40a6fb50aebf88f0c0796a402d6/jetified-play-services-ads-11.8.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5448f40a6fb50aebf88f0c0796a402d6/jetified-play-services-ads-11.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5448f40a6fb50aebf88f0c0796a402d6/jetified-play-services-ads-11.8.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6f020583af697366a3f8e31184635f41/jetified-play-services-ads-11.8.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6f020583af697366a3f8e31184635f41/jetified-play-services-ads-11.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6f020583af697366a3f8e31184635f41/jetified-play-services-ads-11.8.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
